@@ -1,0 +1,12 @@
+﻿<dx:ThemedWindow x:Class="OrdiniWeb_WPF.MainWindow"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+                 xmlns:Views="clr-namespace:OrdiniWeb_WPF.Views"
+                 Title="OrdiniWeb Login" Height="600" Width="450"
+                 WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Views:LoginView />
+    </Grid>
+</dx:ThemedWindow>
